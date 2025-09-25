@@ -1,9 +1,9 @@
-# FernTest Swift Library
+# TrainTravel Swift Library
 
-[![fern shield](https://img.shields.io/badge/%F0%9F%8C%BF-Built%20with%20Fern-brightgreen)](https://buildwithfern.com?utm_source=github&utm_medium=github&utm_campaign=readme&utm_source=FernTest%2FSwift)
+[![fern shield](https://img.shields.io/badge/%F0%9F%8C%BF-Built%20with%20Fern-brightgreen)](https://buildwithfern.com?utm_source=github&utm_medium=github&utm_campaign=readme&utm_source=TrainTravel%2FSwift)
 ![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-orange.svg)
 
-The FernTest Swift library provides convenient access to the FernTest APIs from Swift.
+The TrainTravel Swift library provides convenient access to the TrainTravel APIs from Swift.
 
 ## Requirements
 
