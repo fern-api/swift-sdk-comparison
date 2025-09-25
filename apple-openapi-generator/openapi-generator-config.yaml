@@ -1,0 +1,7 @@
+# Configuration for Apple's OpenAPI Swift generator
+# This file will be used to configure the generation process
+
+# Add your OpenAPI generator configuration here
+# Example:
+# packageName: AppleOpenAPIGeneratedSDK
+# projectName: AppleOpenAPIGeneratedSDK
