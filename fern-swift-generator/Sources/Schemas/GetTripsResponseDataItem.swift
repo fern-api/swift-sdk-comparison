@@ -19,7 +19,7 @@ public struct GetTripsResponseDataItem: Codable, Hashable, Sendable {
     public let bicyclesAllowed: Bool?
     /// Indicates whether dogs are allowed on the trip
     public let dogsAllowed: Bool?
-    public let `self`: String?
+    public let self_: String?
     /// Additional properties that are not explicitly defined in the schema
     public let additionalProperties: [String: JSONValue]
 
@@ -33,7 +33,7 @@ public struct GetTripsResponseDataItem: Codable, Hashable, Sendable {
         price: Double? = nil,
         bicyclesAllowed: Bool? = nil,
         dogsAllowed: Bool? = nil,
-        self: String? = nil,
+        self_: String? = nil,
         additionalProperties: [String: JSONValue] = .init()
     ) {
         self.id = id
@@ -45,7 +45,7 @@ public struct GetTripsResponseDataItem: Codable, Hashable, Sendable {
         self.price = price
         self.bicyclesAllowed = bicyclesAllowed
         self.dogsAllowed = dogsAllowed
-        self.self = `self`
+        self.self_ = self_
         self.additionalProperties = additionalProperties
     }
 
@@ -60,7 +60,7 @@ public struct GetTripsResponseDataItem: Codable, Hashable, Sendable {
         self.price = try container.decodeIfPresent(Double.self, forKey: .price)
         self.bicyclesAllowed = try container.decodeIfPresent(Bool.self, forKey: .bicyclesAllowed)
         self.dogsAllowed = try container.decodeIfPresent(Bool.self, forKey: .dogsAllowed)
-        self.self = try container.decodeIfPresent(String.self, forKey: .self)
+        self.self_ = try container.decodeIfPresent(String.self, forKey: .self_)
         self.additionalProperties = try decoder.decodeAdditionalProperties(using: CodingKeys.self)
     }
 
@@ -76,7 +76,7 @@ public struct GetTripsResponseDataItem: Codable, Hashable, Sendable {
         try container.encodeIfPresent(self.price, forKey: .price)
         try container.encodeIfPresent(self.bicyclesAllowed, forKey: .bicyclesAllowed)
         try container.encodeIfPresent(self.dogsAllowed, forKey: .dogsAllowed)
-        try container.encodeIfPresent(self.self, forKey: .self)
+        try container.encodeIfPresent(self.self_, forKey: .self_)
     }
 
     /// Keys for encoding/decoding struct properties.
@@ -90,6 +90,6 @@ public struct GetTripsResponseDataItem: Codable, Hashable, Sendable {
         case price
         case bicyclesAllowed = "bicycles_allowed"
         case dogsAllowed = "dogs_allowed"
-        case `self`
+        case self_ = "self"
     }
 }
