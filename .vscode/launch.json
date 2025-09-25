@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-sdk-comparison}/apple-openapi-generator",
+            "name": "Debug PetstoreSOGClient (apple-openapi-generator)",
+            "program": "${workspaceFolder:swift-sdk-comparison}/apple-openapi-generator/.build/debug/PetstoreSOGClient",
+            "preLaunchTask": "swift: Build Debug PetstoreSOGClient (apple-openapi-generator)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-sdk-comparison}/apple-openapi-generator",
+            "name": "Release PetstoreSOGClient (apple-openapi-generator)",
+            "program": "${workspaceFolder:swift-sdk-comparison}/apple-openapi-generator/.build/release/PetstoreSOGClient",
+            "preLaunchTask": "swift: Build Release PetstoreSOGClient (apple-openapi-generator)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-sdk-comparison}/apple-openapi-generator",
+            "name": "Debug TrainTravelClient (apple-openapi-generator)",
+            "program": "${workspaceFolder:swift-sdk-comparison}/apple-openapi-generator/.build/debug/TrainTravelClient",
+            "preLaunchTask": "swift: Build Debug TrainTravelClient (apple-openapi-generator)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-sdk-comparison}/apple-openapi-generator",
+            "name": "Release TrainTravelClient (apple-openapi-generator)",
+            "program": "${workspaceFolder:swift-sdk-comparison}/apple-openapi-generator/.build/release/TrainTravelClient",
+            "preLaunchTask": "swift: Build Release TrainTravelClient (apple-openapi-generator)"
+        }
+    ]
+}
