@@ -9,7 +9,6 @@ We generate Swift SDKs using the following tools:
 
 - **Apple’s Swift OpenAPI Generator**  
 - **Fern’s Swift OpenAPI Generator**  
-- **OpenAPI Generator (community project)**  
 
 ## API Specification
 
