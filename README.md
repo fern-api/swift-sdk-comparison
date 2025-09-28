@@ -26,11 +26,14 @@ Using a single consistent spec ensures the comparisons highlight generator diffe
 Each directory contains a generated Swift SDK from one of the tools above.  
 Typical comparison points include:
 
-- **Code organization** (file structure, module layout)  
-- **Type naming conventions**  
-- **Error handling approaches**  
-- **Dependency footprint**  
-- **Concurrency support** (async/await, structured concurrency)  
+- **Client initialization and configuration** (authentication, base URL setup)
+- **API method signatures and ergonomics** (parameter handling, response types)
+- **External dependencies** (runtime frameworks, package footprint)
+- **Generated code size and complexity** (file count, maintainability)
+- **Error handling patterns** (error types, throwing vs. Result types)
+- **Swift language feature usage** (async/await, structured concurrency, modern Swift idioms)
+- **Type safety and nullability** (optional handling, type-safe enums)
+- **Documentation and code comments** (inline docs, usage examples)  
 
 ## How to Use
 
